@@ -1,5 +1,9 @@
 import "./App.css";
 import Weather from "./app_components/weather.components";
+import Amplify from 'aws-amplify';
+import awsconfig from './aws-exports';
+import { AmplifySignOut, withAuthenticator } from '@aws-amplify/ui-react'
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import "weather-icons/css/weather-icons.css";
 import Form from "./app_components/form.componrnt";
@@ -7,7 +11,7 @@ import React from "react";
 
 const Api_Key = "e5696731b8297b53f193745d683a4d40";
 
-
+Amplify.configure(awsconfig);
 
 class App extends React.Component {
   constructor() {
@@ -115,10 +119,13 @@ class App extends React.Component {
           temp_min={this.state.temp_min}
           description={this.state.description}
         />
+        <div class="App-header">
+          <AmplifySignOut />
+        </div>
       </div>
     );
   }
 }
 
-export default App;
+export default withAuthenticator(App);
 
