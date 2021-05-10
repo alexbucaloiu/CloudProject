@@ -6,10 +6,13 @@ Această aplicație ajută userii să vadă vremea din orice oraș își doresc 
 
 Descriere API 
 
+
+
 OpenWeatherMap este un serviciu online care oferă date meteorologice, inclusiv date meterorlogice curente, prognoze și date și date istorice dezvoltatorilor de servicii web și aplicații mobile. Pentru sursele de date, utilizează servicii de difuzare meteorologică, date brute de la stațiile meteo din aeroport, date brute de la stațiile radar și date brute de la alte stații meteorologice oficiale. Toate datele sunt prelucrate de OpenWeatherMap într-un mod în care încearcă să furnizeze date precise de prognoză online și hărți meteo, cum ar fi cele pentru nori sau precipitații. Dincolo de asta, serviciul este axat pe aspectul social, implicând proprietarii stațiilor meteo în conectarea la acest serviciu și, prin urmare, creșterea preciziei datelor meteo.
 
 OpenWeatherMap oferă o API cu puncte finale JSON, XML și HTML, dar și un nivel de utilizare gratuită limitat.
 
+![Capture](https://user-images.githubusercontent.com/44768196/117702098-c157c200-b1d0-11eb-90a6-cc8785872546.PNG)
 
 
 
@@ -25,6 +28,7 @@ Astăzi, AWS oferă o platformă de infrastructură extrem de scalabilă, cu cos
 
 
 
+![aws-logo](https://user-images.githubusercontent.com/44768196/117702107-c288ef00-b1d0-11eb-9713-578f8902d608.PNG)
 
 
 Flux de date
@@ -40,18 +44,24 @@ Am realizat un serviciu de autentificare cu ajutorul AWS auth. Acesta a fost urc
 
 Capturi de ecran:
 
-Figura 1 - Sign in
 
+
+
+
+![sign-in](https://user-images.githubusercontent.com/44768196/117702122-c61c7600-b1d0-11eb-8b67-b414d818d11e.PNG)
+Figura 1 - Sign in
+![sign-up](https://user-images.githubusercontent.com/44768196/117702119-c583df80-b1d0-11eb-8667-47ecd30ad2ab.PNG)
 
 Fig.2 Sign up
 
+![app](https://user-images.githubusercontent.com/44768196/117702102-c1f05880-b1d0-11eb-8878-3aa3ba1a699f.PNG)
 
 Fig.3 Main App
 
 
-
+![app-js](https://user-images.githubusercontent.com/44768196/117702105-c1f05880-b1d0-11eb-90a0-241568e2df0e.PNG)
 
 Fig.4 App.js - code
 
-
+![weather-app-code](https://user-images.githubusercontent.com/44768196/117702120-c61c7600-b1d0-11eb-8ebf-8fda1f51ab90.PNG)
 Fig.5 Weather code app
